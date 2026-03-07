@@ -46,4 +46,5 @@ I used "Anchor Tags" (links that point to specific IDs like #about). I added `sc
 
 
 Author: **Tefo Abigail** 
-Course: **Computer Systems Engineering Student**
+
+Course: **Computer Systems Engineering**
