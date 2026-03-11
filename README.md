@@ -6,28 +6,24 @@ This is a website I built to show my profile as a **Computer Systems Engineering
 
 ##  My Design Choice
 I went for a "Brutalist" look. This means:
-* **Bold Colors:** I only used Black, Red, and White to make it look sharp.
-* **Big Text:** I used the **Inter** font for headers so they are the first thing you see.
-* **Simple Layout:** I kept it clean and didn't add unnecessary decorations.
+ **Bold Colors:** I only used Black, Red, and White to make it look sharp.
+ **Big Text:** I used the **Inter** font for headers so they are the first thing you see.
+ **Simple Layout:** I kept it clean and didn't add unnecessary decorations.
 
 ##  How I Built It
 
 ### 1. Text that Changes Size
-I didn't want the text to look huge on a laptop but tiny on a phone. I used a CSS trick called `clamp()`. 
+I didn't want the text to look huge on a laptop but tiny on a phone. I used a CSS trick called Clamp(). 
 **How it works:** This tells the browser to automatically resize the text based on the screen size so it always fits perfectly. This way, I don't have to write different code for every single device.
 
-
-
 ### 2. Red Hover Effect on Photos
-I wanted my photos to look more artistic. I used a CSS setting called `mix-blend-mode`.
+I wanted my photos to look more artistic. I used a CSS setting called mix-blend-mode.
 * **The Effect:** My photos are black and white. When you move your mouse over them, they blend with the red background behind them.
 * **Why:** It makes the site feel interactive without me needing to edit the photos in an external app like Photoshop.
 
 ### 3. Side-by-Side Sections
 I used the **Bootstrap Grid** to make sure my Education and Skills stay next to each other on big screens. 
 * **The Logic:** I divided the row into columns. This keeps the information organized and professional instead of just being one long list.
-
-
 
 ### 4. Wide Footer Image
 At the bottom of the page, I wanted the image to touch both sides of the screen. I used `width: 100%` and `object-fit: cover`. 
@@ -45,6 +41,7 @@ I used "Anchor Tags" (links that point to specific IDs like #about). I added `sc
 
 
 
-Author: **Tefo Abigail** 
+Author: **Tefo Abigail Gasenna** 
 
 Course: **Computer Systems Engineering**
+
